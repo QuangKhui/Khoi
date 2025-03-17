@@ -1,0 +1,20 @@
+package thuVien;
+
+public class sachThamKhao  extends sach{
+	double thue;
+	sachThamKhao(){
+		
+	}
+	sachThamKhao( int _maSach, String _ngayNhap, double _donGia, String _nhaXuatBan, int _soLuong, double _thue)
+	{
+		super ( _maSach, _ngayNhap, _donGia, _soLuong, _nhaXuatBan );
+		thue = _thue;
+	}
+	double tinhThanhTien()
+	{
+	double thanhTien;
+	thanhTien = donGia * soLuong + thue ;
+	return thanhTien;
+	}
+	
+	}
