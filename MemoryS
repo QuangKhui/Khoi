@@ -1,0 +1,18 @@
+package thuVien;
+
+import java.util.ArrayList;
+
+public class MemoryS {
+	static ArrayList<sachGiaoKhoa> databaseGiaoKhoa
+	= new ArrayList<sachGiaoKhoa>();
+	static ArrayList<sachThamKhao> databaseThamKhao
+	= new ArrayList<sachThamKhao>();
+		static void addsachGiaoKhoa(sachGiaoKhoa sach)
+		{
+			databaseGiaoKhoa.add(sach);
+		}
+		static void addsachThamKhao(sachThamKhao sach)
+		{
+			databaseThamKhao.add(sach);
+		}
+}
