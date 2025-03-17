@@ -1,0 +1,16 @@
+package thuVien;
+
+public class sachStorage {
+	sachStorage(){
+		
+	}
+	void insertsachGiaoKhoa(sachGiaoKhoa sach)
+	{
+		MemoryS.addsachGiaoKhoa(sach);
+	}
+	void insertsachThamKhao(sachThamKhao sach)
+	{
+		MemoryS.addsachThamKhao(sach);
+	}
+
+}
