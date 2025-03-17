@@ -1,0 +1,24 @@
+ackage thuVien;
+
+
+
+public class sach {
+	int maSach;
+	String ngayNhap;
+	double donGia;
+	int soLuong;
+	String nhaXuatBan;
+	sach(){
+		
+	}
+	sach(int _maSach, String _ngayNhap,
+			double _donGia, int _soLuong, String _nhaXuatBan){
+		maSach = _maSach;
+		ngayNhap = _ngayNhap;
+		donGia = _donGia;
+		soLuong = _soLuong;
+		nhaXuatBan = _nhaXuatBan;
+		
+	}
+}
+
