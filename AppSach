@@ -1,0 +1,12 @@
+package thuVien;
+
+public class AppSach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			SachInput sachInput;
+			sachInput = new SachInput();
+			sachInput.input();
+	}
+
+}
