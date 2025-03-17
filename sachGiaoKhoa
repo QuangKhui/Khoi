@@ -1,0 +1,22 @@
+package thuVien;
+
+
+public class sachGiaoKhoa extends sach {
+	boolean tinhTrangMoi = true;// true mới , flase cũ
+	sachGiaoKhoa(){
+		
+	}
+	sachGiaoKhoa(int _maSach,String _ngayNhap, double _donGia,
+				int _soLuong, String _nhaXuatBan,boolean _tinhTrangMoi)
+	{
+		super(_maSach, _ngayNhap, _donGia, _soLuong , _nhaXuatBan );
+		tinhTrangMoi = _tinhTrangMoi;
+	}
+	
+	double tinhThanhTien() {
+		return (tinhTrangMoi ? soLuong * donGia : soLuong * donGia *0.5 );
+		
+	}
+	
+	
+}
